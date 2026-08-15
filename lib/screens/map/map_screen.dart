@@ -140,16 +140,24 @@ class _MapScreenState extends State<MapScreen> {
       return;
     }
 
-    if (_currentPosition != null) {
+    if (_currentPosition != null && _mapController != null) {
       final target = LatLng(
         _currentPosition!.latitude,
         _currentPosition!.longitude,
       );
-      _mapController?.animateCamera(CameraUpdate.newLatLng(target));
+      _mapController!.animateCamera(CameraUpdate.newLatLng(target));
       return;
     }
 
     await _updateCurrentLocation();
+
+    if (_currentPosition != null && _mapController != null) {
+      final target = LatLng(
+        _currentPosition!.latitude,
+        _currentPosition!.longitude,
+      );
+      _mapController!.animateCamera(CameraUpdate.newLatLng(target));
+    }
   }
 
   void _zoomIn() {

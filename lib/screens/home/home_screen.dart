@@ -1,4 +1,6 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/app_routes.dart';
@@ -15,8 +17,83 @@ import '../../screens/routes/routes_screen.dart';
 import '../../utils/responsive.dart';
 import '../../widgets/search_results_sheet.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  String? _currentAddress;
+  bool _isLoadingLocation = false;
+  String? _locationError;
+  StreamSubscription<Position>? _positionStreamSubscription;
+
+  @override
+  void initState() {
+    super.initState();
+    _determinePosition();
+  }
+
+  @override
+  void dispose() {
+    _positionStreamSubscription?.cancel();
+    super.dispose();
+  }
+
+  Future<void> _determinePosition() async {
+    setState(() {
+      _isLoadingLocation = true;
+      _locationError = null;
+    });
+
+    try {
+      final serviceEnabled = await Geolocator.isLocationServiceEnabled();
+      if (!serviceEnabled) {
+        setState(() {
+          _locationError = 'Location services are disabled. Please enable them in settings.';
+          _isLoadingLocation = false;
+        });
+        return;
+      }
+
+      LocationPermission permission = await Geolocator.checkPermission();
+      if (permission == LocationPermission.denied) {
+        permission = await Geolocator.requestPermission();
+      }
+
+      if (permission == LocationPermission.denied) {
+        setState(() {
+          _locationError = 'Location permission needed';
+          _isLoadingLocation = false;
+        });
+        return;
+      }
+
+      if (permission == LocationPermission.deniedForever) {
+        setState(() {
+          _locationError = 'Location permission permanently denied. Please enable from app settings.';
+          _isLoadingLocation = false;
+        });
+        return;
+      }
+
+      final position = await Geolocator.getCurrentPosition(
+        desiredAccuracy: LocationAccuracy.medium,
+      );
+
+      setState(() {
+        _currentAddress = '${position.latitude.toStringAsFixed(4)}, ${position.longitude.toStringAsFixed(4)}';
+        _isLoadingLocation = false;
+      });
+    } on Exception catch (_) {
+      setState(() {
+        _locationError = 'Unable to get current location.';
+        _isLoadingLocation = false;
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -87,35 +164,25 @@ class HomeScreen extends StatelessWidget {
     }
   }
 
-  void _openSearchWithQuery(BuildContext context, String query) {
-    final provider = context.read<BusDataProvider>();
-    provider.updateSearchQuery(query);
-    showSearchSheet(
-      context: context,
-      provider: provider,
-      onResultSelected: (result) => _handleSearchSelection(context, result),
-    );
-  }
-
-  void _showShortcutsDialog(BuildContext context) {
-    showDialog(
-      context: context,
-      builder: (dialogContext) => AlertDialog(
-        title: const Text('Bus stop shortcuts'),
-        content: const Text(
-          'Shortcut management will be available in a future update. For now, you can tap any shortcut chip to search for that stop.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(dialogContext),
-            child: const Text('Close'),
-          ),
-        ],
-      ),
-    );
-  }
-
   Widget _buildGreetingCard(BuildContext context) {
+    final appState = context.watch<AppStateProvider>();
+    final rawName = appState.profileName.trim();
+    final displayName = rawName.isEmpty || rawName == 'chinna' ? 'there' : rawName;
+
+    final hour = DateTime.now().hour;
+    final greeting = hour < 12 ? 'Good Morning' : hour < 17 ? 'Good Afternoon' : 'Good Evening';
+
+    String locationText;
+    if (_locationError != null) {
+      locationText = _locationError!;
+    } else if (_currentAddress != null) {
+      locationText = _currentAddress!;
+    } else if (_isLoadingLocation) {
+      locationText = 'Updating location...';
+    } else {
+      locationText = 'Location permission needed';
+    }
+
     return Container(
       padding: const EdgeInsets.all(22),
       decoration: BoxDecoration(
@@ -132,14 +199,14 @@ class HomeScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'Good Morning',
-            style: TextStyle(color: Colors.white70, fontSize: 16),
+          Text(
+            greeting,
+            style: const TextStyle(color: Colors.white70, fontSize: 16),
           ),
           const SizedBox(height: 10),
-          const Text(
-            'Saanvi',
-            style: TextStyle(
+          Text(
+            displayName,
+            style: const TextStyle(
               color: Colors.white,
               fontSize: 28,
               fontWeight: FontWeight.w700,
@@ -151,15 +218,15 @@ class HomeScreen extends StatelessWidget {
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: const [
+                  children: [
                     Text(
                       'Current location',
-                      style: TextStyle(color: Colors.white70),
+                      style: TextStyle(color: Colors.white.withAlpha(179)),
                     ),
-                    SizedBox(height: 6),
+                    const SizedBox(height: 6),
                     Text(
-                      'Dwaraka Nagar, Vizag',
-                      style: TextStyle(
+                      locationText,
+                      style: const TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.w600,
                       ),
@@ -295,16 +362,16 @@ class HomeScreen extends StatelessWidget {
                   Text(
                     title,
                     style: const TextStyle(fontWeight: FontWeight.w600),
-                   ),
-                   const SizedBox(height: 4),
-                   Text(
-                     subtitle,
-                     style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
-                   ),
-                 ],
-               ),
-             ),
-           ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    subtitle,
+                    style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
+                  ),
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );
@@ -747,6 +814,34 @@ class HomeScreen extends StatelessWidget {
         'frequency': route.frequency,
         'stopNames': route.stops,
       },
+    );
+  }
+
+  void _openSearchWithQuery(BuildContext context, String query) {
+    final provider = context.read<BusDataProvider>();
+    provider.updateSearchQuery(query);
+    showSearchSheet(
+      context: context,
+      provider: provider,
+      onResultSelected: (result) => _handleSearchSelection(context, result),
+    );
+  }
+
+  void _showShortcutsDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: const Text('Bus stop shortcuts'),
+        content: const Text(
+          'Shortcut management will be available in a future update. For now, you can tap any shortcut chip to search for that stop.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(dialogContext),
+            child: const Text('Close'),
+          ),
+        ],
+      ),
     );
   }
 
