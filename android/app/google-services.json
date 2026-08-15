@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "788587082443",
+    "project_id": "visakhapatnam-bus-tracking",
+    "storage_bucket": "visakhapatnam-bus-tracking.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788587082443:android:8c70f10bd564234134614e",
+        "android_client_info": {
+          "package_name": "com.example.bus_tracking_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUqewUs-M4OlsAiNkvijfHGEKqcB1Nt64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
