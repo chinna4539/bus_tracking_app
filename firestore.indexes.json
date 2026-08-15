@@ -1,0 +1,53 @@
+{
+  "indexes": [
+    {
+      "collectionId": "live_locations",
+      "fields": [
+        { "fieldPath": "busId", "order": "ASCENDING" },
+        { "fieldPath": "lastUpdated", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "favorites",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "itemType", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "notifications",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionId": "buses",
+      "fields": [
+        { "fieldPath": "routeId", "order": "ASCENDING" },
+        { "fieldPath": "isActive", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "routes",
+      "fields": [
+        { "fieldPath": "category", "order": "ASCENDING" },
+        { "fieldPath": "isActive", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "trips",
+      "fields": [
+        { "fieldPath": "busId", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionId": "drivers",
+      "fields": [
+        { "fieldPath": "busId", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" }
+      ]
+    }
+  ]
+}

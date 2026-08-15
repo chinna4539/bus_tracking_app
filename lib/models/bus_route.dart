@@ -44,6 +44,23 @@ class BusRoute {
     );
   }
 
+  factory BusRoute.fromFirestore(String id, Map<String, dynamic> data) {
+    return BusRoute(
+      routeNumber: data['routeNumber'] as String? ?? id,
+      title: data['title'] as String? ?? '',
+      startingPoint: data['startingPoint'] as String? ?? '',
+      destination: data['destination'] as String? ?? '',
+      stops: List<String>.from(data['stops'] as List<dynamic>? ?? []),
+      distance: data['distance'] as String? ?? '',
+      duration: data['duration'] as String? ?? '',
+      totalStops: data['totalStops'] as int? ?? 0,
+      firstBus: data['firstBus'] as String? ?? '',
+      lastBus: data['lastBus'] as String? ?? '',
+      frequency: data['frequency'] as String? ?? '',
+      description: data['description'] as String? ?? '',
+    );
+  }
+
   Map<String, dynamic> toMap() {
     return {
       'routeNumber': routeNumber,

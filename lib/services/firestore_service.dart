@@ -6,12 +6,13 @@ import '../models/bus_stop.dart';
 import '../models/driver_info.dart';
 import '../models/live_location.dart';
 import '../models/notification_info.dart';
+import '../models/trip_info.dart';
 
 class FirestoreService {
   final FirebaseFirestore _firestore;
 
   FirestoreService({FirebaseFirestore? firestore})
-    : _firestore = firestore ?? FirebaseFirestore.instance;
+      : _firestore = firestore ?? FirebaseFirestore.instance;
 
   CollectionReference<Map<String, dynamic>> get usersRef =>
       _firestore.collection('users');
@@ -20,7 +21,7 @@ class FirestoreService {
   CollectionReference<Map<String, dynamic>> get routesRef =>
       _firestore.collection('routes');
   CollectionReference<Map<String, dynamic>> get busStopsRef =>
-      _firestore.collection('bus_stops');
+      _firestore.collection('stops');
   CollectionReference<Map<String, dynamic>> get driversRef =>
       _firestore.collection('drivers');
   CollectionReference<Map<String, dynamic>> get liveLocationsRef =>
@@ -29,6 +30,12 @@ class FirestoreService {
       _firestore.collection('notifications');
   CollectionReference<Map<String, dynamic>> get favoritesRef =>
       _firestore.collection('favorites');
+  CollectionReference<Map<String, dynamic>> get tripsRef =>
+      _firestore.collection('trips');
+  CollectionReference<Map<String, dynamic>> get reportsRef =>
+      _firestore.collection('reports');
+  CollectionReference<Map<String, dynamic>> get routeStopsRef =>
+      _firestore.collection('route_stops');
 
   Future<void> createUserProfile(String uid, Map<String, dynamic> data) async {
     await usersRef.doc(uid).set(data);
@@ -36,19 +43,17 @@ class FirestoreService {
 
   Future<List<BusInfo>> fetchBuses() async {
     final snapshot = await busesRef.get();
-    return snapshot.docs.map((doc) => BusInfo.fromMap(doc.data())).toList();
+    return snapshot.docs.map((doc) => BusInfo.fromFirestore(doc.id, doc.data())).toList();
   }
 
   Future<List<BusRoute>> fetchRoutes() async {
     final snapshot = await routesRef.get();
-    return snapshot.docs.map((doc) => BusRoute.fromMap(doc.data())).toList();
+    return snapshot.docs.map((doc) => BusRoute.fromFirestore(doc.id, doc.data())).toList();
   }
 
   Future<List<BusStop>> fetchStops() async {
     final snapshot = await busStopsRef.get();
-    return snapshot.docs
-        .map((doc) => BusStop(name: doc.data()['name'] as String? ?? ''))
-        .toList();
+    return snapshot.docs.map((doc) => BusStop.fromFirestore(doc.id, doc.data())).toList();
   }
 
   Future<List<DriverInfo>> fetchDrivers() async {
@@ -111,5 +116,10 @@ class FirestoreService {
         .map((doc) => doc.data()['itemId'] as String? ?? '')
         .where((itemId) => itemId.isNotEmpty)
         .toList();
+  }
+
+  Future<List<TripInfo>> fetchTrips() async {
+    final snapshot = await tripsRef.get();
+    return snapshot.docs.map((doc) => TripInfo.fromMap(doc.id, doc.data())).toList();
   }
 }

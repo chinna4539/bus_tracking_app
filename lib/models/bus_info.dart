@@ -21,7 +21,6 @@ class BusInfo {
   final String lastUpdated;
   final String distanceRemaining;
   final String estimatedJourneyTime;
-
   final bool isActive;
   final double latitude;
   final double longitude;
@@ -54,6 +53,38 @@ class BusInfo {
     return BusInfo(
       busNumber: data['busNumber'] as String? ?? '',
       routeNumber: data['routeNumber'] as String? ?? '',
+      routeName: data['routeName'] as String? ?? '',
+      startingPoint: data['startingPoint'] as String? ?? '',
+      destination: data['destination'] as String? ?? '',
+      stops: List<String>.from(data['stops'] as List<dynamic>? ?? []),
+      currentStop: data['currentStop'] as String? ?? '',
+      nextStop: data['nextStop'] as String? ?? '',
+      eta: data['eta'] as String? ?? '',
+      status: BusStatus.values.firstWhere(
+        (status) => status.name == data['status'],
+        orElse: () => BusStatus.onTime,
+      ),
+      busType: BusType.values.firstWhere(
+        (type) => type.name == data['busType'],
+        orElse: () => BusType.standard,
+      ),
+      driverName: data['driverName'] as String? ?? '',
+      capacity: data['capacity'] as int? ?? 0,
+      availableSeats: data['availableSeats'] as int? ?? 0,
+      speed: (data['speed'] as num?)?.toDouble() ?? 0.0,
+      lastUpdated: data['lastUpdated'] as String? ?? '',
+      distanceRemaining: data['distanceRemaining'] as String? ?? '',
+      estimatedJourneyTime: data['estimatedJourneyTime'] as String? ?? '',
+      isActive: data['isActive'] as bool? ?? false,
+      latitude: (data['latitude'] as num?)?.toDouble() ?? 0.0,
+      longitude: (data['longitude'] as num?)?.toDouble() ?? 0.0,
+    );
+  }
+
+  factory BusInfo.fromFirestore(String id, Map<String, dynamic> data) {
+    return BusInfo(
+      busNumber: data['busNumber'] as String? ?? id,
+      routeNumber: data['routeNumber'] as String? ?? data['routeId'] as String? ?? id,
       routeName: data['routeName'] as String? ?? '',
       startingPoint: data['startingPoint'] as String? ?? '',
       destination: data['destination'] as String? ?? '',

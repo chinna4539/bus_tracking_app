@@ -1,0 +1,73 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Users collection
+    match /users/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Buses collection
+    match /buses/{busId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.role in ['admin', 'operator'];
+    }
+
+    // Routes collection
+    match /routes/{routeId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.role in ['admin', 'operator'];
+    }
+
+    // Stops collection
+    match /stops/{stopId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.role in ['admin', 'operator'];
+    }
+
+    // Route stops junction collection
+    match /route_stops/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.role in ['admin', 'operator'];
+    }
+
+    // Trips collection
+    match /trips/{tripId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.role in ['admin', 'driver'];
+    }
+
+    // Drivers collection
+    match /drivers/{driverId} {
+      allow read: if request.auth != null && request.auth.token.role in ['admin', 'driver'];
+      allow write: if request.auth != null && request.auth.token.role == 'admin';
+    }
+
+    // Live locations collection
+    match /live_locations/{locationId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.role in ['admin', 'driver'];
+    }
+
+    // Notifications collection
+    match /notifications/{notifId} {
+      allow read: if request.auth != null && (resource.data.userId == request.auth.uid || resource.data.userId == 'global');
+      allow write: if request.auth != null && request.auth.token.role == 'admin';
+    }
+
+    // Favorites collection
+    match /favorites/{favId} {
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+      allow write: if request.auth != null && request.auth.token.role in ['passenger', 'admin', 'driver'] && request.resource.data.userId == request.auth.uid;
+    }
+
+    // Reports collection
+    match /reports/{reportId} {
+      allow read: if request.auth != null && request.auth.token.role in ['admin', 'passenger', 'driver'];
+      allow create: if request.auth != null && request.auth.token.role in ['passenger', 'driver'];
+      allow update: if request.auth != null && request.auth.token.role == 'admin';
+      allow delete: if false;
+    }
+  }
+}
