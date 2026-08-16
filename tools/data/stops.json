@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "10041",
+    "name": "NALLAJERLA",
+    "latitude": 16.94830032,
+    "longitude": 81.40748441,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10131",
+    "name": "NANDAPUR JN",
+    "latitude": 18.56517,
+    "longitude": 82.73894,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10151",
+    "name": "NANDIGAMA",
+    "latitude": 16.77451,
+    "longitude": 80.28947,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10161",
+    "name": "NANDIGUM",
+    "latitude": 18.656072,
+    "longitude": 84.299409,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10171",
+    "name": "NANDIKOTKUR",
+    "latitude": 15.85626,
+    "longitude": 78.26123,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1021",
+    "name": "AUTONAGAR BUS STATION",
+    "latitude": 16.490691,
+    "longitude": 80.670913,
+    "zone": "Central",
+    "isActive": true
+  },
+  {
+    "id": "10211",
+    "name": "NARASANNAPETA",
+    "latitude": 18.414077,
+    "longitude": 84.039929,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10301",
+    "name": "NARSAPURAM",
+    "latitude": 16.440218,
+    "longitude": 81.701578,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1031",
+    "name": "AVANIGADDA",
+    "latitude": 16.025495,
+    "longitude": 80.916881,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10311",
+    "name": "NARASARAOPET",
+    "latitude": 16.22747,
+    "longitude": 80.05034,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10341",
+    "name": "NARSIPATNAM",
+    "latitude": 17.663259,
+    "longitude": 82.616213,
+    "zone": "North",
+    "isActive": true
+  },
+  {
+    "id": "10381",
+    "name": "NATHAVALASA",
+    "latitude": 18.06211,
+    "longitude": 83.52426,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10451",
+    "name": "NELLIMARLA",
+    "latitude": 18.165368,
+    "longitude": 83.446789,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10471",
+    "name": "NELLORE",
+    "latitude": 14.441898,
+    "longitude": 79.977594,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10561",
+    "name": "NIDADAVOLU",
+    "latitude": 16.901025,
+    "longitude": 81.67346,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10571",
+    "name": "NIDAMANUR",
+    "latitude": 16.51058,
+    "longitude": 80.71638,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10641",
+    "name": "NIZAMPET CITY BUS STOP_METRO PILLER NO_708 TO  710",
+    "latitude": 17.498211,
+    "longitude": 78.390717,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10761",
+    "name": "NUZVID",
+    "latitude": 16.785,
+    "longitude": 80.8488,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10821",
+    "name": "OLD GAJUWAKA",
+    "latitude": 17.685903,
+    "longitude": 83.203678,
+    "zone": "South",
+    "isActive": true
+  },
+  {
+    "id": "10831",
+    "name": "ONUKUDELLI",
+    "latitude": 18.513314,
+    "longitude": 82.425777,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10841",
+    "name": "ONGOLE",
+    "latitude": 15.511035,
+    "longitude": 80.041564,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "10931",
+    "name": "P.GANNAVARAM",
+    "latitude": 16.590013,
+    "longitude": 81.888737,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11011",
+    "name": "PADERU",
+    "latitude": 18.08838,
+    "longitude": 82.66922,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11061",
+    "name": "PALAKOLLU",
+    "latitude": 16.515731,
+    "longitude": 81.72658,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11071",
+    "name": "PALAKONDA",
+    "latitude": 18.598878,
+    "longitude": 83.759976,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11101",
+    "name": "PALASA",
+    "latitude": 18.769911970277143,
+    "longitude": 84.4165365750643,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11151",
+    "name": "PALVANCHA",
+    "latitude": 17.599025,
+    "longitude": 80.705549,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11161",
+    "name": "PAMARRU",
+    "latitude": 16.32297,
+    "longitude": 80.95762,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11211",
+    "name": "PAMURU",
+    "latitude": 15.10019,
+    "longitude": 79.41195,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11251",
+    "name": "PANGIDI",
+    "latitude": 17.018748,
+    "longitude": 81.651412,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11381",
+    "name": "PARVATHIPURAM",
+    "latitude": 18.773611,
+    "longitude": 83.422732,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11551",
+    "name": "PEDANA",
+    "latitude": 16.25265,
+    "longitude": 81.14559,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11701",
+    "name": "PENDURTHI",
+    "latitude": 17.822636,
+    "longitude": 83.204903,
+    "zone": "North",
+    "isActive": true
+  },
+  {
+    "id": "11741",
+    "name": "PENUGONDA-WG",
+    "latitude": 16.658046,
+    "longitude": 81.744032,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11751",
+    "name": "PERAVALI",
+    "latitude": 16.749293,
+    "longitude": 81.739271,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11851",
+    "name": "PITHAPURAM",
+    "latitude": 17.12341,
+    "longitude": 82.25578,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "11931",
+    "name": "PODILI",
+    "latitude": 15.60254,
+    "longitude": 79.60577,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12001",
+    "name": "PONNUR",
+    "latitude": 16.066229,
+    "longitude": 80.5511988,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12021",
+    "name": "POOSAPATI REGA",
+    "latitude": 18.09252,
+    "longitude": 83.55381,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12041",
+    "name": "PORUMAMILLA",
+    "latitude": 15.001329,
+    "longitude": 78.990546,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "121",
+    "name": "ADDA ROAD",
+    "latitude": 17.431025,
+    "longitude": 82.744844,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12121",
+    "name": "PRASADAM PADU-VJA",
+    "latitude": 16.52034,
+    "longitude": 80.692766,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12131",
+    "name": "PRATHIPADU",
+    "latitude": 17.230786,
+    "longitude": 82.19956,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12151",
+    "name": "PRODDUTUR",
+    "latitude": 14.744402,
+    "longitude": 78.561969,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12161",
+    "name": "PSR BUS STATION",
+    "latitude": 14.457,
+    "longitude": 79.98965,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12461",
+    "name": "RAJAMAHENDRAVARAM",
+    "latitude": 17.001056,
+    "longitude": 81.789552,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12471",
+    "name": "RAJAM",
+    "latitude": 18.45041,
+    "longitude": 83.66018,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12491",
+    "name": "RAJANAGARAM",
+    "latitude": 17.07918,
+    "longitude": 81.8967,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12531",
+    "name": "RAZOLU",
+    "latitude": 16.46812,
+    "longitude": 81.835774,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12581",
+    "name": "RAJVIHAR",
+    "latitude": 15.828641,
+    "longitude": 78.038506,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12601",
+    "name": "RAMABADRAPURAM",
+    "latitude": 18.494812,
+    "longitude": 83.281469,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12611",
+    "name": "RAMACHANDRAPURAM",
+    "latitude": 16.83624,
+    "longitude": 82.03561,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12701",
+    "name": "RAMAVARAPUPADU RING-VJA",
+    "latitude": 16.524107,
+    "longitude": 80.676721,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12751",
+    "name": "RAMOJI FILM CITY",
+    "latitude": 17.311554,
+    "longitude": 78.682717,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12781",
+    "name": "RANASTHALAM",
+    "latitude": 18.18591,
+    "longitude": 83.68017,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "12891",
+    "name": "RAVULAPALEM",
+    "latitude": 16.76172,
+    "longitude": 81.842272,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "13001",
+    "name": "RED BRIDGE",
+    "latitude": 16.585411,
+    "longitude": 82.018314,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "13251",
+    "name": "S.R.NAGAR CITY BUS STOP METRO PILLER NO 1038 -1039",
+    "latitude": 17.439394,
+    "longitude": 78.442705,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1331",
+    "name": "BAPATLA",
+    "latitude": 15.90847,
+    "longitude": 80.47868,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "13401",
+    "name": "SALUR",
+    "latitude": 18.51991,
+    "longitude": 83.19518,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "13521",
+    "name": "SATTUPALLY",
+    "latitude": 17.21169,
+    "longitude": 80.83063,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "13571",
+    "name": "SEETHAMPETA-VSP",
+    "latitude": 17.728926,
+    "longitude": 83.306605,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1361",
+    "name": "BARUVA",
+    "latitude": 18.88957,
+    "longitude": 84.57883,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1365771557309",
+    "name": "KATTIPUDI BY PASS",
+    "latitude": 17.242697,
+    "longitude": 82.343878,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "13721",
+    "name": "SHEELANAGAR",
+    "latitude": 17.718336,
+    "longitude": 83.20374,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1374423730040",
+    "name": "ALLWYN COLONY X ROAD",
+    "latitude": 17.494511,
+    "longitude": 78.352202,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1375188927965",
+    "name": "TAGARUPUVALSA",
+    "latitude": 17.928769,
+    "longitude": 83.423637,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1375375838381",
+    "name": "BENZCIRCLE ELR BUS STOP",
+    "latitude": 16.497926,
+    "longitude": 80.653672,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "13791",
+    "name": "SILERU",
+    "latitude": 18.04904,
+    "longitude": 82.0343,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "13821",
+    "name": "SINGARAYA KONDA",
+    "latitude": 15.25528,
+    "longitude": 80.02283,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1389619576592",
+    "name": "MADDILEPALEM BUS STAND",
+    "latitude": 17.735321,
+    "longitude": 83.319719,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1390896069583",
+    "name": "LANKELAPALEM",
+    "latitude": 17.688018,
+    "longitude": 83.096879,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1392880069973",
+    "name": "CHILAKAPALEM",
+    "latitude": 18.27056,
+    "longitude": 83.804083,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1392973521719",
+    "name": "VSP MADDILAPALEM CITY BUS STATION",
+    "latitude": 17.736152,
+    "longitude": 83.320063,
+    "zone": "Central",
+    "isActive": true
+  },
+  {
+    "id": "1393313343588",
+    "name": "GUDAVALLI RAMAN BHAVAN",
+    "latitude": 16.511609,
+    "longitude": 80.743035,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1393856089892",
+    "name": "LANKALAKODERU",
+    "latitude": 16.52436,
+    "longitude": 81.68203,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1397577482469",
+    "name": "KAVALI BYPASS",
+    "latitude": 14.873867,
+    "longitude": 79.986965,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1400811858064",
+    "name": "POLAVARAM CHATRAI",
+    "latitude": 16.98527,
+    "longitude": 80.91483,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14031",
+    "name": "SOMPETA",
+    "latitude": 18.94725,
+    "longitude": 84.583466,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1405678100465",
+    "name": "BHEL RAMACHANDRAPURAM CITY BS-OPP AMBEDKAR STATUE",
+    "latitude": 17.513657,
+    "longitude": 78.288336,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14081",
+    "name": "SRIKALAHASTHI BYPASS",
+    "latitude": 13.749277,
+    "longitude": 79.688532,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1408706995563",
+    "name": "VIJAYAWADA AIR PORT GATE",
+    "latitude": 16.527505,
+    "longitude": 80.785672,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1409841085582",
+    "name": "ELURU MINI BYPASS",
+    "latitude": 16.70519,
+    "longitude": 81.08991,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14101",
+    "name": "SRIKAKULAM",
+    "latitude": 18.30911,
+    "longitude": 83.893275,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1412398506729",
+    "name": "PERURI PETA CENTER",
+    "latitude": 16.549792,
+    "longitude": 81.989056,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14141",
+    "name": "SRISAILAM",
+    "latitude": 16.07384,
+    "longitude": 78.874827,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14161",
+    "name": "SRUNGAVARAPU KOTA",
+    "latitude": 18.10744,
+    "longitude": 83.140179,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1417520430791",
+    "name": "SIDDHARTHA ENG COLLEGE-VJA",
+    "latitude": 16.482092,
+    "longitude": 80.691363,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14211",
+    "name": "VSP STEEL CITY",
+    "latitude": 17.685673,
+    "longitude": 83.149707,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14221",
+    "name": "STEEL PLANT",
+    "latitude": 17.684889,
+    "longitude": 83.167756,
+    "zone": "South",
+    "isActive": true
+  },
+  {
+    "id": "1428567001693",
+    "name": "PEDAMERANGI JN",
+    "latitude": 18.83861,
+    "longitude": 83.5485,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1429165903282",
+    "name": "YALAMANCHILI",
+    "latitude": 17.547008,
+    "longitude": 82.854078,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14311",
+    "name": "SUNNIPENTA",
+    "latitude": 16.07396,
+    "longitude": 78.91144,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14361",
+    "name": "SURYAPET",
+    "latitude": 17.151893,
+    "longitude": 79.619822,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1436352534894",
+    "name": "SIRIPURAM JUNCTION",
+    "latitude": 17.72411,
+    "longitude": 83.31925,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1436353506834",
+    "name": "MVP CITY COMPLEX",
+    "latitude": 17.739241,
+    "longitude": 83.335146,
+    "zone": "North",
+    "isActive": true
+  },
+  {
+    "id": "1436354145475",
+    "name": "ISUKATHOTA CITY BUS STOP",
+    "latitude": 17.74232,
+    "longitude": 83.32766,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1438425120759",
+    "name": "KONDALAMMA CHINTA-MAMIDIKUDURU",
+    "latitude": 16.514599,
+    "longitude": 81.935115,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14391",
+    "name": "SWATHI THEATRE",
+    "latitude": 16.526299,
+    "longitude": 80.593477,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1441",
+    "name": "BATTILI",
+    "latitude": 19.0122983,
+    "longitude": 83.7856799,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14421",
+    "name": "T.NARASAPURAM",
+    "latitude": 17.102608,
+    "longitude": 81.078034,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1442914054845",
+    "name": "AKKAYYAPALEM",
+    "latitude": 17.739822,
+    "longitude": 83.296295,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1442914198664",
+    "name": "MURALI NAGAR JUNCTION VSP",
+    "latitude": 17.746871,
+    "longitude": 83.264201,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1443073701033",
+    "name": "ACHAMPETA JUNCTION-KKD",
+    "latitude": 17.022741,
+    "longitude": 82.248628,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1443251666583",
+    "name": "MADHURAWADA DEPOT",
+    "latitude": 17.807008,
+    "longitude": 83.366173,
+    "zone": "North-West",
+    "isActive": true
+  },
+  {
+    "id": "1443252214562",
+    "name": "AKKAYYAPALEMJUNCTION",
+    "latitude": 17.740478,
+    "longitude": 83.299364,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14451",
+    "name": "TADEPALLI GUDEM",
+    "latitude": 16.818392,
+    "longitude": 81.522855,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1450533617786",
+    "name": "GOTLABADRA",
+    "latitude": 19.05616,
+    "longitude": 83.77682,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14521",
+    "name": "TAGARAPU VALASA CITYBUS STOP",
+    "latitude": 17.928766,
+    "longitude": 83.423661,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1454734559004",
+    "name": "PULLA",
+    "latitude": 16.8091,
+    "longitude": 81.3227,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1454734890804",
+    "name": "GUNDUGOLANU",
+    "latitude": 16.78278,
+    "longitude": 81.22493,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1457005959824",
+    "name": "MARIKA VALASA",
+    "latitude": 17.835931,
+    "longitude": 83.359166,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1457507808927",
+    "name": "TALLAPALEM JUNCTION",
+    "latitude": 17.634028,
+    "longitude": 82.893823,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1460201760283",
+    "name": "KAMAYYATHOPU CENTRE",
+    "latitude": 16.483863,
+    "longitude": 80.686171,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14611",
+    "name": "TANGUTURU",
+    "latitude": 15.341715,
+    "longitude": 80.034693,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1461406235552",
+    "name": "PATHAPATNAM",
+    "latitude": 18.749121,
+    "longitude": 84.090724,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14621",
+    "name": "TANUKU",
+    "latitude": 16.757512,
+    "longitude": 81.672233,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14661",
+    "name": "TEKKALI",
+    "latitude": 18.604154,
+    "longitude": 84.230086,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1469075677229",
+    "name": "NTR HEALTH UNIVERSITY VIJAYAWADA",
+    "latitude": 16.515553,
+    "longitude": 80.669887,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14691",
+    "name": "TELEPHONE BHAVAN- LAKDI KA POOL",
+    "latitude": 17.406151,
+    "longitude": 78.464938,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14701",
+    "name": "TENALI",
+    "latitude": 16.24424,
+    "longitude": 80.643876,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1471584636579",
+    "name": "PATAMATA",
+    "latitude": 16.495112,
+    "longitude": 80.661101,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1473931088726",
+    "name": "NARSIPATNAM XROAD",
+    "latitude": 17.440924,
+    "longitude": 82.742817,
+    "zone": "North",
+    "isActive": true
+  },
+  {
+    "id": "1474956163530",
+    "name": "LANKALAPALEM",
+    "latitude": 17.688017,
+    "longitude": 83.096873,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1476768376886",
+    "name": "MADDILAPALEM CITY BUSSTOP",
+    "latitude": 17.73609,
+    "longitude": 83.31972,
+    "zone": "Central",
+    "isActive": true
+  },
+  {
+    "id": "1477031997383",
+    "name": "YALAMANCHALI BYPASS",
+    "latitude": 17.55005,
+    "longitude": 82.84097,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1477290115268",
+    "name": "KURMANNAPALEM-VSP",
+    "latitude": 17.685503,
+    "longitude": 83.168532,
+    "zone": "South",
+    "isActive": true
+  },
+  {
+    "id": "1480057591984",
+    "name": "BIRLA JUNCTION-VSP",
+    "latitude": 17.743176,
+    "longitude": 83.259666,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1483604745740",
+    "name": "MOOSAPET Y JUNCTION",
+    "latitude": 17.46967,
+    "longitude": 78.42755,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14911",
+    "name": "TIRUPATHI",
+    "latitude": 13.629698,
+    "longitude": 79.426333,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1492508640449",
+    "name": "GOWRAVARAM-JPT",
+    "latitude": 16.857462,
+    "longitude": 80.198342,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1492508820390",
+    "name": "KONAKANCHI X ROAD",
+    "latitude": 16.846709,
+    "longitude": 80.213031,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1492770113405",
+    "name": "SARUBUJJILI",
+    "latitude": 18.5356,
+    "longitude": 83.91553,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1492770177374",
+    "name": "AMADALAVALASA-SKLM",
+    "latitude": 18.406095,
+    "longitude": 83.898801,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1492774139042",
+    "name": "GOLLAPROLU",
+    "latitude": 17.15191,
+    "longitude": 82.28464,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1495012122029",
+    "name": "EENADU - RTA OFFICE SOMAJIGUDA_METRO PILLER 1152-1153",
+    "latitude": 17.416265,
+    "longitude": 78.45773,
+    "zone": "East",
+    "isActive": true
+  },
+  {
+    "id": "1495613204914",
+    "name": "BENZ CIRCLE OPP EENADU NEAR MARG KRISHNAIAH HOTEL",
+    "latitude": 16.497928,
+    "longitude": 80.653674,
+    "zone": "East",
+    "isActive": true
+  },
+  {
+    "id": "1498047258862",
+    "name": "SUBHADRAPURAM",
+    "latitude": 18.231493,
+    "longitude": 83.721616,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "14991",
+    "name": "TRIPURANTHAKAM",
+    "latitude": 16.002482,
+    "longitude": 79.456949,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1500615663451",
+    "name": "SURYAPET BY PASS",
+    "latitude": 17.14946,
+    "longitude": 79.62485,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15041",
+    "name": "TUNI",
+    "latitude": 17.36848,
+    "longitude": 82.543103,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15071",
+    "name": "UDAYAGIRI",
+    "latitude": 14.87813,
+    "longitude": 79.30299,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1511776844476",
+    "name": "HIRAMANDALAM",
+    "latitude": 18.66691073,
+    "longitude": 83.9504157,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15121",
+    "name": "UNDI",
+    "latitude": 16.58552,
+    "longitude": 81.46692,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1513776933530",
+    "name": "LAMBASINGI",
+    "latitude": 17.80607,
+    "longitude": 82.49575,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15241",
+    "name": "V.K.PADU",
+    "latitude": 14.993031,
+    "longitude": 79.420821,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1526024455217",
+    "name": "NARSARAOPET BYPASS",
+    "latitude": 16.20739,
+    "longitude": 80.03994,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1534913708330",
+    "name": "YENDADA",
+    "latitude": 17.782847,
+    "longitude": 83.357965,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1536648609309",
+    "name": "MAKAVARAPALEM",
+    "latitude": 17.61996,
+    "longitude": 82.71855,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1536661073859",
+    "name": "LOTHUGEDDA",
+    "latitude": 17.85558,
+    "longitude": 82.435868,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1536661532350",
+    "name": "DARAKONDA",
+    "latitude": 17.99708,
+    "longitude": 82.12471,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1540553114464",
+    "name": "PYDIBHIMAVARAM",
+    "latitude": 18.1462033,
+    "longitude": 83.628175,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15441",
+    "name": "VANASTHALIPURAM",
+    "latitude": 17.337974,
+    "longitude": 78.5694,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1551",
+    "name": "BENZ CIRCLE",
+    "latitude": 16.4984017,
+    "longitude": 80.652697,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1553507381744",
+    "name": "OPPOSITE AUTONAGAR BUSTAND-VJA",
+    "latitude": 16.49089011,
+    "longitude": 80.66945554,
+    "zone": "Central",
+    "isActive": true
+  },
+  {
+    "id": "1556958032614",
+    "name": "CHAGALLU",
+    "latitude": 16.992978,
+    "longitude": 81.666768,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15621",
+    "name": "VEERAVASARAM",
+    "latitude": 16.53791,
+    "longitude": 81.62867,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15701",
+    "name": "VEMAGIRI",
+    "latitude": 16.92783,
+    "longitude": 81.79335,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15881",
+    "name": "VIJAYAWADA",
+    "latitude": 16.508894,
+    "longitude": 80.616597,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1591",
+    "name": "BHADRACHALAM",
+    "latitude": 17.67171,
+    "longitude": 80.89137,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15931",
+    "name": "VINUKONDA",
+    "latitude": 16.055575,
+    "longitude": 79.739611,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1593235772778",
+    "name": "PUSAPATIREGA",
+    "latitude": 18.09252,
+    "longitude": 83.55381,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1593322162706",
+    "name": "ROLUGUNTA",
+    "latitude": 17.713799,
+    "longitude": 82.668087,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1593339840337",
+    "name": "SIDDANTHAM BRIDGE",
+    "latitude": 16.683523,
+    "longitude": 81.80072,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1593340156466",
+    "name": "PRATHIPADU X ROAD",
+    "latitude": 16.81134,
+    "longitude": 81.57343,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1593674172865",
+    "name": "DIWANCHERUVU",
+    "latitude": 17.046316,
+    "longitude": 81.843845,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15941",
+    "name": "VISAKHAPATNAM",
+    "latitude": 17.723934,
+    "longitude": 83.306356,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15951",
+    "name": "VISSANNAPET",
+    "latitude": 16.94035,
+    "longitude": 80.7817,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15971",
+    "name": "VIVEKANANDA NAGAR_METRO PILLER 773-774",
+    "latitude": 17.491,
+    "longitude": 78.40776,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15981",
+    "name": "VIZIANAGARAM",
+    "latitude": 18.108581,
+    "longitude": 83.399061,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "15991",
+    "name": "VM BANZARA",
+    "latitude": 17.207442,
+    "longitude": 80.66049,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1604741043183",
+    "name": "LB NAGAR - PRALAVI GARDENS",
+    "latitude": 17.340946,
+    "longitude": 78.562195,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "16091",
+    "name": "WALTAIR",
+    "latitude": 17.730412,
+    "longitude": 83.340071,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1611",
+    "name": "BHAMINI",
+    "latitude": 18.909148,
+    "longitude": 83.813421,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1615960709084",
+    "name": "VADAPALLI-RVPM",
+    "latitude": 16.81407,
+    "longitude": 81.812411,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1618288400869",
+    "name": "NELLIPAKA-BHADRACHALAM",
+    "latitude": 17.659744,
+    "longitude": 81.003426,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "16221",
+    "name": "YANAM",
+    "latitude": 16.736768,
+    "longitude": 82.212813,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "16231",
+    "name": "YANAM BY PASS",
+    "latitude": 16.736118,
+    "longitude": 82.202733,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "16241",
+    "name": "YARNA GUDEM",
+    "latitude": 17.000363,
+    "longitude": 81.505024,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "16281",
+    "name": "YELAMANCHILI",
+    "latitude": 17.56049,
+    "longitude": 82.85441,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "16421",
+    "name": "YELAMANCHILI BY PASS",
+    "latitude": 17.5648,
+    "longitude": 82.8613,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1645249696635",
+    "name": "GIET-RJY",
+    "latitude": 17.05913,
+    "longitude": 81.86854,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1646045511348",
+    "name": "KOMMADI",
+    "latitude": 17.823998,
+    "longitude": 83.356563,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1651944759846",
+    "name": "MALAKPET NLG X ROAD CITY BUS STOP",
+    "latitude": 17.375438,
+    "longitude": 78.498549,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1652862805501",
+    "name": "S.R.NAGAR-HYD",
+    "latitude": 17.441882,
+    "longitude": 78.441296,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1656580112442",
+    "name": "PARAPURAM",
+    "latitude": 18.769517,
+    "longitude": 83.88597,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1656581426881",
+    "name": "VALLADU",
+    "latitude": 18.904732,
+    "longitude": 83.878028,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1657888255687",
+    "name": "DEVARAPALLY BYPASS-RJY",
+    "latitude": 17.052374,
+    "longitude": 81.555256,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1657888417454",
+    "name": "NALLAJARLA BYPASS",
+    "latitude": 16.952173,
+    "longitude": 81.401862,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1657888495794",
+    "name": "BHIMADOLU BYPASS",
+    "latitude": 16.83218,
+    "longitude": 81.255503,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1661602722495",
+    "name": "FORE-CAMP",
+    "latitude": 17.85644,
+    "longitude": 81.7083,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1662396879283",
+    "name": "PITHAPURAM BYPASS_PADA GAYA",
+    "latitude": 17.108411,
+    "longitude": 82.244416,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1663851155237",
+    "name": "DARLIPUT-RS",
+    "latitude": 18.34975,
+    "longitude": 82.70316,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1663851359750",
+    "name": "PADUVA-RS-PS",
+    "latitude": 18.37523,
+    "longitude": 82.67838,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1663851520332",
+    "name": "SUGUR",
+    "latitude": 18.515783,
+    "longitude": 82.613588,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1663851971874",
+    "name": "LAMTAPUT-HOSPITAL",
+    "latitude": 18.61847,
+    "longitude": 82.59248,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1663852163396",
+    "name": "GUNEIPODA",
+    "latitude": 18.571686,
+    "longitude": 82.524576,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1664378319150",
+    "name": "SRUNGAVRUKSHAM",
+    "latitude": 16.54401,
+    "longitude": 81.599307,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1665043234710",
+    "name": "SRUNGAVRUKSHAM",
+    "latitude": 16.545157,
+    "longitude": 81.597411,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1666002038655",
+    "name": "NTR CIRCLE --NEAR VIJAY SALES BUILDING",
+    "latitude": 16.497905,
+    "longitude": 80.655404,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1666002145882",
+    "name": "PATAMATA CENTRE-NEAR MODERN SHOE MART",
+    "latitude": 16.495105,
+    "longitude": 80.661321,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1666002199075",
+    "name": "ASHOK NAGAR-TIME HOSPITAL",
+    "latitude": 16.487628,
+    "longitude": 80.677466,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1666077269787",
+    "name": "KAMINENI HOSPITAL TADIGADAPA",
+    "latitude": 16.496104,
+    "longitude": 80.702867,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1666077472566",
+    "name": "ENIKEPADU SWEET MAGIC-OPP SIVALAYAM",
+    "latitude": 16.514177,
+    "longitude": 80.705749,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1666717318344",
+    "name": "UNGUTURU",
+    "latitude": 16.823666,
+    "longitude": 81.422465,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1670936619976",
+    "name": "CHINTALAPUDI",
+    "latitude": 17.078301,
+    "longitude": 80.990391,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1671271676132",
+    "name": "SUGUR-T",
+    "latitude": 18.515783,
+    "longitude": 82.613588,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1671271850338",
+    "name": "SIMILIGUDA-T",
+    "latitude": 18.70637,
+    "longitude": 82.85362,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1672493417712",
+    "name": "ELURU OLD BUS STAND OUT GATE",
+    "latitude": 16.711323,
+    "longitude": 81.111976,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1678077515813",
+    "name": "INAMADUGU CENTER",
+    "latitude": 14.501939,
+    "longitude": 79.991249,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1683795924817",
+    "name": "MAHIPALACHERVU-AMP",
+    "latitude": 16.615932,
+    "longitude": 82.071908,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1684233209085",
+    "name": "ALLAMPURAM",
+    "latitude": 16.8064,
+    "longitude": 81.5884,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1684234555743",
+    "name": "TANDAVA-JN",
+    "latitude": 17.583273,
+    "longitude": 82.55096,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1684235110787",
+    "name": "ADDAROAD-NAKKAPALLI",
+    "latitude": 17.412086,
+    "longitude": 82.729319,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1689671147150",
+    "name": "DILSHUKH NAGAR METRO PILLER NO -1511",
+    "latitude": 17.368983,
+    "longitude": 78.518984,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1691",
+    "name": "BHIMADOLU",
+    "latitude": 16.822961,
+    "longitude": 81.262011,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1691223137979",
+    "name": "TADEPALLIGUDEM T",
+    "latitude": 16.80806,
+    "longitude": 81.53017,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1698726403724",
+    "name": "MOOSAPET CITY BUS STOP-METRO PILLER NO-880",
+    "latitude": 17.47258,
+    "longitude": 78.42561,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1698730890656",
+    "name": "CHAITANYAPURI CITY BUS STOP-METRO PILLER NO-1564",
+    "latitude": 17.36855,
+    "longitude": 78.532606,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1698730987983",
+    "name": "KOTHAPET CITY BUS STOP- METRO PILLER NO-1600",
+    "latitude": 17.366877,
+    "longitude": 78.54097,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1701",
+    "name": "BHIMAVARAM",
+    "latitude": 16.545122,
+    "longitude": 81.529421,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1725089753177",
+    "name": "BHIMAVARAM OLD BUS STAND",
+    "latitude": 16.5442,
+    "longitude": 81.5211,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1727913700225",
+    "name": "SITANAGARAM",
+    "latitude": 18.663145,
+    "longitude": 83.371148,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1728284319711",
+    "name": "SEETHAMPETA",
+    "latitude": 18.69558,
+    "longitude": 83.81807,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1731",
+    "name": "BHOGHAPURAM",
+    "latitude": 18.028465,
+    "longitude": 83.492869,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1758696785235",
+    "name": "ULLIVALASA",
+    "latitude": 18.356667,
+    "longitude": 83.596635,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "1921",
+    "name": "BOBBILI",
+    "latitude": 18.573138,
+    "longitude": 83.346545,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "20871",
+    "name": "BORIGUMA",
+    "latitude": 19.05106,
+    "longitude": 82.54629,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "20881",
+    "name": "CHATWA GATE",
+    "latitude": 18.348837,
+    "longitude": 82.77194,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "20901",
+    "name": "DAMANJODI",
+    "latitude": 18.76326,
+    "longitude": 82.9252,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "20921",
+    "name": "GUNUPUR",
+    "latitude": 19.070115105898026,
+    "longitude": 83.81206530544559,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "20951",
+    "name": "JEYPORE",
+    "latitude": 18.865378,
+    "longitude": 82.573207,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "20971",
+    "name": "KORAPUT",
+    "latitude": 18.812669,
+    "longitude": 82.712837,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "21",
+    "name": "AKAVEEDU",
+    "latitude": 16.58130689,
+    "longitude": 81.382218,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "21011",
+    "name": "NOWRANGAPUR",
+    "latitude": 19.233347,
+    "longitude": 82.54775,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "21021",
+    "name": "PARLAKIMIDI",
+    "latitude": 18.787214,
+    "longitude": 84.088835,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "21031",
+    "name": "POTTANGI",
+    "latitude": 18.565265,
+    "longitude": 82.958072,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "21041",
+    "name": "SIMILIGUDA",
+    "latitude": 18.706366,
+    "longitude": 82.853623,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "21051",
+    "name": "SUNABEDA",
+    "latitude": 18.721524,
+    "longitude": 82.8416,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "21061",
+    "name": "SUNKI",
+    "latitude": 18.502485,
+    "longitude": 83.051427,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2111",
+    "name": "C.CAMP",
+    "latitude": 15.806804,
+    "longitude": 78.042651,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "222003",
+    "name": "JONNAPADU",
+    "latitude": 16.48074,
+    "longitude": 80.974442,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2221",
+    "name": "CHALLAPALLI",
+    "latitude": 16.113623,
+    "longitude": 80.930877,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "222520",
+    "name": "YERRAVARAM TOLLGATE",
+    "latitude": 17.215383,
+    "longitude": 82.110676,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "222930",
+    "name": "YELAMANCHILI",
+    "latitude": 17.56049,
+    "longitude": 82.85441,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "223224",
+    "name": "ADDUROAD NAKKAPALLI",
+    "latitude": 17.431028,
+    "longitude": 82.744844,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "223359",
+    "name": "NIMMADA",
+    "latitude": 18.45851,
+    "longitude": 84.09897,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "223368",
+    "name": "ANAKAPALLI BYPASS",
+    "latitude": 17.689844,
+    "longitude": 83.001827,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "223553",
+    "name": "KODUR",
+    "latitude": 17.9088,
+    "longitude": 82.7885,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "223603",
+    "name": "BALADA",
+    "latitude": 18.817346,
+    "longitude": 83.921024,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2241",
+    "name": "CHANDANAGAR",
+    "latitude": 17.49498,
+    "longitude": 78.3231,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "224747",
+    "name": "KANUMOLU",
+    "latitude": 16.605361,
+    "longitude": 80.96554,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "224854",
+    "name": "GUNTUPALLE",
+    "latitude": 16.566737,
+    "longitude": 80.547243,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "224874",
+    "name": "KESARAPALLE-VJA",
+    "latitude": 16.52169,
+    "longitude": 80.77618,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "225223",
+    "name": "KOMAROLU",
+    "latitude": 15.2706,
+    "longitude": 79.0009,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "225570",
+    "name": "SEETHANAGARAM CHINABHOGILA",
+    "latitude": 18.66316,
+    "longitude": 83.371137,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "225630",
+    "name": "BORRA JUNCTION",
+    "latitude": 18.2451,
+    "longitude": 83.02025,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "225713",
+    "name": "LAKKAVARAPUKOTA HOSTEL",
+    "latitude": 18.01979,
+    "longitude": 83.15331,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "225827",
+    "name": "TUNI404",
+    "latitude": 17.36834,
+    "longitude": 82.5433,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "225902",
+    "name": "CHODAVARAM",
+    "latitude": 17.8269309,
+    "longitude": 82.9350662,
+    "zone": "West",
+    "isActive": true
+  },
+  {
+    "id": "225968",
+    "name": "SUNKARAMETTA",
+    "latitude": 18.2779290792546,
+    "longitude": 82.9666619002819,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "225974",
+    "name": "CHALLAPETA JN",
+    "latitude": 18.505402,
+    "longitude": 84.063011,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "226027",
+    "name": "ANANDAPURAM",
+    "latitude": 17.89366,
+    "longitude": 83.37789,
+    "zone": "West",
+    "isActive": true
+  },
+  {
+    "id": "226096",
+    "name": "NIVGAM MATHALA",
+    "latitude": 18.78352,
+    "longitude": 83.94105,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "226202",
+    "name": "VENKOJIPALEM",
+    "latitude": 17.746235,
+    "longitude": 83.328513,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "226247",
+    "name": "SARPAVARAM.JN",
+    "latitude": 16.994826,
+    "longitude": 82.242739,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "226385",
+    "name": "NAVATHALA JN.",
+    "latitude": 18.70539,
+    "longitude": 84.03066,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "226469",
+    "name": "KODURU_KASIPURM_GARIKABANA",
+    "latitude": 17.908643,
+    "longitude": 82.788466,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "226475",
+    "name": "R V NAGAR GUDEM",
+    "latitude": 17.864088,
+    "longitude": 82.200357,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "22651",
+    "name": "MARTERU",
+    "latitude": 16.62535,
+    "longitude": 81.73995,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "22751",
+    "name": "KONDAPALLY",
+    "latitude": 16.62087,
+    "longitude": 80.54056,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "22761",
+    "name": "YERNAGUDEM",
+    "latitude": 17.00047,
+    "longitude": 81.50537,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "227885",
+    "name": "DEVARAPALLE",
+    "latitude": 17.03632,
+    "longitude": 81.56258,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "22791",
+    "name": "KOTTAVALASA",
+    "latitude": 17.90297,
+    "longitude": 83.18591,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "228421",
+    "name": "BORRAMPALEM",
+    "latitude": 17.087324,
+    "longitude": 81.196222,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "228514",
+    "name": "MANGAMPADU",
+    "latitude": 17.96558,
+    "longitude": 81.89866,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "229546",
+    "name": "METTURU",
+    "latitude": 18.736401,
+    "longitude": 83.905172,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "229731",
+    "name": "KANNURUPALEM",
+    "latitude": 17.634549,
+    "longitude": 82.818406,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "22974",
+    "name": "TALLA REVU",
+    "latitude": 16.779546,
+    "longitude": 82.229102,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "22986",
+    "name": "GANDEPALLI",
+    "latitude": 17.137369,
+    "longitude": 81.959753,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "22987",
+    "name": "YERRAVARAM",
+    "latitude": 17.230089,
+    "longitude": 82.126188,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23013",
+    "name": "SITAMPETA",
+    "latitude": 17.73216,
+    "longitude": 83.30691,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23022",
+    "name": "KOMAROLU",
+    "latitude": 15.249354,
+    "longitude": 79.007031,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23045",
+    "name": "SIDDHANTAM",
+    "latitude": 16.67402,
+    "longitude": 81.81071,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23058",
+    "name": "KARAPA",
+    "latitude": 16.902109,
+    "longitude": 82.168259,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23059",
+    "name": "VELANGI",
+    "latitude": 16.869684,
+    "longitude": 82.114233,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23065",
+    "name": "AMBAGUDA",
+    "latitude": 18.94983,
+    "longitude": 82.55403,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "230757",
+    "name": "BENZ CIRCLE",
+    "latitude": 16.49752,
+    "longitude": 80.6541,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23079",
+    "name": "BHEL-BEERAMGUDA",
+    "latitude": 17.50953,
+    "longitude": 78.2999,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23120",
+    "name": "KOTANANDURU",
+    "latitude": 17.481578,
+    "longitude": 82.495081,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23121",
+    "name": "JAGGAMPETA BY PASS",
+    "latitude": 17.17329,
+    "longitude": 82.057051,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23122",
+    "name": "KODAD BY PASS",
+    "latitude": 16.98942,
+    "longitude": 79.95133,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23129",
+    "name": "TUNI BY PASS",
+    "latitude": 17.368279,
+    "longitude": 82.5482,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "231468",
+    "name": "VELANGI",
+    "latitude": 16.868391,
+    "longitude": 82.111091,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "231493",
+    "name": "LALACHERUVU",
+    "latitude": 17.02631,
+    "longitude": 81.806462,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23161",
+    "name": "PEDAVADLAPUDI",
+    "latitude": 16.41148,
+    "longitude": 80.61094,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "231786",
+    "name": "SIVADEVUNICHIKKALA",
+    "latitude": 16.53219,
+    "longitude": 81.65174,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23188",
+    "name": "HANUMANTHUWAKA",
+    "latitude": 17.755437,
+    "longitude": 83.332539,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "232197",
+    "name": "SRINAGAR",
+    "latitude": 17.6767,
+    "longitude": 83.19191,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23235",
+    "name": "CHEBROLU",
+    "latitude": 16.819547,
+    "longitude": 81.399824,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23274",
+    "name": "RAJA NAGARAM BYPASS",
+    "latitude": 17.07921,
+    "longitude": 81.896755,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2331",
+    "name": "CHATRAI",
+    "latitude": 16.9946,
+    "longitude": 80.8641,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "233677",
+    "name": "MULLAPADUXRD",
+    "latitude": 16.836805,
+    "longitude": 80.226784,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23379",
+    "name": "KUNTA MRKP",
+    "latitude": 15.90194,
+    "longitude": 79.3001,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23385",
+    "name": "VADDADI",
+    "latitude": 17.851501,
+    "longitude": 82.869462,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23386",
+    "name": "GHAT ROAD",
+    "latitude": 17.882663,
+    "longitude": 82.818934,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23387",
+    "name": "VANTLAMAMIDI",
+    "latitude": 17.971436,
+    "longitude": 82.733534,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23388",
+    "name": "AMMAVARI PADALU",
+    "latitude": 18.01028,
+    "longitude": 82.71462,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23391",
+    "name": "KOVUR BYPASS-RK PETROL BUNK-NLR",
+    "latitude": 14.5158,
+    "longitude": 79.98813,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23392",
+    "name": "KOMMADHI JN.VSP",
+    "latitude": 17.82539,
+    "longitude": 83.35659,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23394",
+    "name": "KOTHAPETA TEKKALI",
+    "latitude": 18.518112,
+    "longitude": 84.145815,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23410",
+    "name": "YARRAVARAM",
+    "latitude": 17.230456,
+    "longitude": 82.125832,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23417",
+    "name": "NTR CIRCLE",
+    "latitude": 16.49634,
+    "longitude": 80.65741,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23421",
+    "name": "V.MADUGULA",
+    "latitude": 17.9155,
+    "longitude": 82.812308,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23422",
+    "name": "RAVIKAMATAM",
+    "latitude": 17.793227,
+    "longitude": 82.802286,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "235022",
+    "name": "DEVARAPALLE",
+    "latitude": 17.035,
+    "longitude": 81.5624,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23508",
+    "name": "MANGALAGIRI BYPASS",
+    "latitude": 16.426543,
+    "longitude": 80.577222,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "235095",
+    "name": "SIRIPURAM",
+    "latitude": 17.7209,
+    "longitude": 83.318,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2351",
+    "name": "CHEBROLU_GNT",
+    "latitude": 16.20076,
+    "longitude": 80.52524,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "235137",
+    "name": "ANAKAPALLI",
+    "latitude": 17.68617,
+    "longitude": 83.002158,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "23523",
+    "name": "VISAKHAPATNAM INTERNATIONAL AIRPORT",
+    "latitude": 17.732318,
+    "longitude": 83.223515,
+    "zone": "North-West",
+    "isActive": true
+  },
+  {
+    "id": "23525",
+    "name": "HANUMAN JUNCTION BYPASS",
+    "latitude": 16.621933,
+    "longitude": 80.971991,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "235269",
+    "name": "NAVATHALA JN DHANUPURAM",
+    "latitude": 18.70539,
+    "longitude": 84.03066,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2361",
+    "name": "CHEEPURUPALLE",
+    "latitude": 18.310044,
+    "longitude": 83.566552,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "237217",
+    "name": "JAGGAMPETA",
+    "latitude": 17.172529,
+    "longitude": 82.05739,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "237232",
+    "name": "KHADGAVALASA OR THOTAPALLI",
+    "latitude": 18.785539,
+    "longitude": 83.509418,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "237504",
+    "name": "KASIPATNAM",
+    "latitude": 18.2161660840067,
+    "longitude": 83.116810619831,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "237596",
+    "name": "BHIMADOLU JUNCTION",
+    "latitude": 16.822598,
+    "longitude": 81.262149,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "237750",
+    "name": "RAVULAMPALEM",
+    "latitude": 17.820281,
+    "longitude": 83.124517,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "237895",
+    "name": "SEETHAMPETA ITDA",
+    "latitude": 18.70488,
+    "longitude": 83.82447,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "238094",
+    "name": "L N PETA JN",
+    "latitude": 18.61316,
+    "longitude": 83.95902,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "238226",
+    "name": "SARABHAVARAM",
+    "latitude": 17.5325,
+    "longitude": 82.51941,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "238227",
+    "name": "TANDAVA",
+    "latitude": 17.61394,
+    "longitude": 82.46929,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "238241",
+    "name": "NOWTHALA",
+    "latitude": 18.70213,
+    "longitude": 84.03092,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "238354",
+    "name": "SAPRLA",
+    "latitude": 17.93562,
+    "longitude": 82.14737,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "239580",
+    "name": "PUTTAGUNTA",
+    "latitude": 16.51684,
+    "longitude": 80.960357,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "240195",
+    "name": "KATHIPUDI",
+    "latitude": 17.24325,
+    "longitude": 82.33366,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "240377",
+    "name": "RAMBHADRAPURAM",
+    "latitude": 18.494812,
+    "longitude": 83.281469,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "240858",
+    "name": "ADDAROAD NAKKAPALLI",
+    "latitude": 17.431028,
+    "longitude": 82.744844,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "241006",
+    "name": "GUDLAGUDEM",
+    "latitude": 17.778782,
+    "longitude": 81.573347,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "241070",
+    "name": "MALIKIPURAM",
+    "latitude": 16.40991,
+    "longitude": 81.80413,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "241270",
+    "name": "KOTTURU",
+    "latitude": 18.77939,
+    "longitude": 83.87861,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "242466",
+    "name": "ENIKEPADU-VJA",
+    "latitude": 16.514103,
+    "longitude": 80.705979,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "242563",
+    "name": "ARUGOLANU",
+    "latitude": 16.561905,
+    "longitude": 80.9566867,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "242695",
+    "name": "CHILAKALURIPET",
+    "latitude": 16.098403,
+    "longitude": 80.168294,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243135",
+    "name": "JAGGAMPETA",
+    "latitude": 17.172364,
+    "longitude": 82.056973,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243309",
+    "name": "ANANTHAGIRI",
+    "latitude": 18.235843,
+    "longitude": 83.004505,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243612",
+    "name": "SARAVAKOTA ALDU",
+    "latitude": 18.59173,
+    "longitude": 84.04987,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243798",
+    "name": "CARSHED",
+    "latitude": 17.803217,
+    "longitude": 83.353095,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243821",
+    "name": "DOWNURU",
+    "latitude": 17.76768,
+    "longitude": 82.535712,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243843",
+    "name": "GURUDWARA JN",
+    "latitude": 17.73699,
+    "longitude": 83.30667,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243892",
+    "name": "WALTAIR DEPOT",
+    "latitude": 17.73004,
+    "longitude": 83.34264,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243896",
+    "name": "AGANAMPUDI",
+    "latitude": 17.68884,
+    "longitude": 83.13503,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "243942",
+    "name": "JAGANNADHAPURAMBRIDGE",
+    "latitude": 16.927203,
+    "longitude": 82.239314,
+    "zone": "East",
+    "isActive": true
+  },
+  {
+    "id": "244110",
+    "name": "KOTHAKOTA",
+    "latitude": 17.750592,
+    "longitude": 82.696879,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2561",
+    "name": "CHILLAKALLU",
+    "latitude": 16.89535,
+    "longitude": 80.13848,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2571",
+    "name": "CHIMAKURTHI",
+    "latitude": 15.586435,
+    "longitude": 79.86293,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2691",
+    "name": "CHINTAPALLY",
+    "latitude": 17.87039,
+    "longitude": 82.3515,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2721",
+    "name": "CHINTHURU",
+    "latitude": 17.746126,
+    "longitude": 81.398111,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "291",
+    "name": "ALAMURU",
+    "latitude": 16.78717,
+    "longitude": 81.88314,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "2971",
+    "name": "CUMBUM",
+    "latitude": 15.579569,
+    "longitude": 79.109373,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3261",
+    "name": "DEVERAPALLI",
+    "latitude": 17.034631,
+    "longitude": 81.561445,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3391",
+    "name": "DILSUKHNAGAR",
+    "latitude": 17.368377,
+    "longitude": 78.524793,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3451",
+    "name": "DONKARAYI",
+    "latitude": 17.929027,
+    "longitude": 81.800488,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3481",
+    "name": "DORNALA",
+    "latitude": 15.907779,
+    "longitude": 79.093896,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3571",
+    "name": "DUTTALUR",
+    "latitude": 14.843937,
+    "longitude": 79.405612,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3641",
+    "name": "ESI CITY BUS STOP_METRO PILLER NO_1007-1008",
+    "latitude": 17.445825,
+    "longitude": 78.439083,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3691",
+    "name": "EDUGURALLAPALLI",
+    "latitude": 17.74241,
+    "longitude": 81.17839,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3701",
+    "name": "EDUGURALLAPALLY",
+    "latitude": 17.74241,
+    "longitude": 81.17839,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3791",
+    "name": "ELURU",
+    "latitude": 16.707435,
+    "longitude": 81.089445,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3801",
+    "name": "ASHRAM HOSPITAL",
+    "latitude": 16.737242,
+    "longitude": 81.141149,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "381",
+    "name": "AMALAPURAM",
+    "latitude": 16.579884,
+    "longitude": 81.998029,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3811",
+    "name": "ELURU BYPASS",
+    "latitude": 16.737223,
+    "longitude": 81.141135,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3861",
+    "name": "ERRAGADDA",
+    "latitude": 17.456457,
+    "longitude": 78.433616,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3891",
+    "name": "EXECUTIVE CLUB VJA",
+    "latitude": 16.504938,
+    "longitude": 80.661579,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "3991",
+    "name": "GAJAPATHINAGARAM",
+    "latitude": 18.282657,
+    "longitude": 83.336751,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4041",
+    "name": "GAJUWAKA",
+    "latitude": 17.691266,
+    "longitude": 83.224338,
+    "zone": "South",
+    "isActive": true
+  },
+  {
+    "id": "411",
+    "name": "AMBAJIPET",
+    "latitude": 16.595842,
+    "longitude": 81.946599,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4211",
+    "name": "GANNAVARAM",
+    "latitude": 16.543732,
+    "longitude": 80.807729,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4261",
+    "name": "GARIVIDI",
+    "latitude": 18.28543,
+    "longitude": 83.54001,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4381",
+    "name": "ELURU OLD BUSTAND",
+    "latitude": 16.71139,
+    "longitude": 81.111485,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4471",
+    "name": "GOLLAPUDI",
+    "latitude": 16.544497,
+    "longitude": 80.579207,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "451",
+    "name": "AMEERPET-METRO PILLER NO.1077-1078",
+    "latitude": 17.43176,
+    "longitude": 78.447569,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4511",
+    "name": "GOPALAPURAM",
+    "latitude": 17.103049,
+    "longitude": 81.540861,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4651",
+    "name": "GSL MEDICAL COLLAGE",
+    "latitude": 17.066853,
+    "longitude": 81.882657,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4701",
+    "name": "GUDIVADA",
+    "latitude": 16.431277,
+    "longitude": 80.997273,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4711",
+    "name": "GUDLAVALLERU",
+    "latitude": 16.3435,
+    "longitude": 81.05534,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4771",
+    "name": "GUMMALAXMIPURAM",
+    "latitude": 18.97447,
+    "longitude": 83.66327,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "4851",
+    "name": "GUNTUR",
+    "latitude": 16.29606,
+    "longitude": 80.456295,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "501",
+    "name": "ANAKAPALLI BYE PASS-PUDIMADAKA ROAD JUNCTION",
+    "latitude": 17.674566,
+    "longitude": 83.000858,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5011",
+    "name": "HANUMAN JUNCTION",
+    "latitude": 16.63487,
+    "longitude": 80.96997,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5051",
+    "name": "HARIPURAM",
+    "latitude": 18.844799,
+    "longitude": 84.500804,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5071",
+    "name": "HAYATNAGAR",
+    "latitude": 17.326768,
+    "longitude": 78.605765,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "511",
+    "name": "ANAKAPALLI",
+    "latitude": 17.686173,
+    "longitude": 83.002027,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5161",
+    "name": "HT BUS STAND RAJAHMUNDRY",
+    "latitude": 17.012522,
+    "longitude": 81.780274,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5251",
+    "name": "HYDERABAD MGBS",
+    "latitude": 17.376944,
+    "longitude": 78.483837,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5271",
+    "name": "HYDERNAGAR CITY BUS STOP-METRO PILLER NO-675",
+    "latitude": 17.499246,
+    "longitude": 78.383559,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5311",
+    "name": "IBRAHIMPATNAM",
+    "latitude": 16.589129,
+    "longitude": 80.520902,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5331",
+    "name": "ICHAPURAM",
+    "latitude": 19.108868,
+    "longitude": 84.683619,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5551",
+    "name": "JAGGAIHPET",
+    "latitude": 16.892147,
+    "longitude": 80.098324,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5561",
+    "name": "JAGGAMPET-RJY",
+    "latitude": 17.172356,
+    "longitude": 82.057047,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5571",
+    "name": "JAGGANNAPET",
+    "latitude": 16.496782,
+    "longitude": 81.880736,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5741",
+    "name": "JANGAREDDY GUDEM",
+    "latitude": 17.11724,
+    "longitude": 81.29515,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "5881",
+    "name": "JOLAPUT",
+    "latitude": 18.44434,
+    "longitude": 82.54256,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "601",
+    "name": "ANATHAVARAM",
+    "latitude": 16.605627,
+    "longitude": 82.056115,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "6021",
+    "name": "KADAPA",
+    "latitude": 14.46511,
+    "longitude": 78.831131,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "6121",
+    "name": "KAIKALURU",
+    "latitude": 16.55319,
+    "longitude": 81.21391,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "6161",
+    "name": "KAKINADA",
+    "latitude": 16.965743,
+    "longitude": 82.239514,
+    "zone": "East",
+    "isActive": true
+  },
+  {
+    "id": "6551",
+    "name": "KANCHIKACHERLA",
+    "latitude": 16.68646,
+    "longitude": 80.3884,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "6571",
+    "name": "KANDUKUR",
+    "latitude": 15.2183,
+    "longitude": 79.899217,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "6611",
+    "name": "KANIGIRI",
+    "latitude": 15.400085,
+    "longitude": 79.510028,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "6781",
+    "name": "KASINAGAR",
+    "latitude": 18.85695,
+    "longitude": 83.88131,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "681",
+    "name": "ANNAVARAM",
+    "latitude": 17.280507,
+    "longitude": 82.403592,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "6841",
+    "name": "KATTIPUDI",
+    "latitude": 17.242852,
+    "longitude": 82.330572,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "6851",
+    "name": "KAVALI",
+    "latitude": 14.910701,
+    "longitude": 79.993432,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7021",
+    "name": "KKP VILLAGE CITY BUS STOP_METRO PILLER NO-814",
+    "latitude": 17.48346,
+    "longitude": 78.412838,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7031",
+    "name": "KODAD",
+    "latitude": 16.996694,
+    "longitude": 79.965906,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7051",
+    "name": "KODALI",
+    "latitude": 16.18671,
+    "longitude": 80.90509,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7411",
+    "name": "KOTHAGUDEM",
+    "latitude": 17.54808,
+    "longitude": 80.615756,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "751",
+    "name": "APSP-KKD-MOHAN CONVENT CENTRE",
+    "latitude": 17.008878,
+    "longitude": 82.248295,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7531",
+    "name": "KOTTURU",
+    "latitude": 18.77316,
+    "longitude": 83.880886,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7571",
+    "name": "KOVVURU",
+    "latitude": 17.017413,
+    "longitude": 81.727332,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7581",
+    "name": "KOVVUR BYPASS",
+    "latitude": 17.024796,
+    "longitude": 81.712978,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "761",
+    "name": "ARAKU",
+    "latitude": 18.333771,
+    "longitude": 82.865781,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7611",
+    "name": "KOYYALAGUDEM",
+    "latitude": 17.127431,
+    "longitude": 81.430472,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7631",
+    "name": "KPHB CITY BUS STOP_METRO PILLER NO_742-744",
+    "latitude": 17.493678,
+    "longitude": 78.401373,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7721",
+    "name": "KRNL CHECKPOST",
+    "latitude": 15.797704,
+    "longitude": 78.05252,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7731",
+    "name": "KRNL COLLECTORATE",
+    "latitude": 15.818076,
+    "longitude": 78.040523,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7761",
+    "name": "KUCHIPUDI",
+    "latitude": 16.25624,
+    "longitude": 80.9144,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7921",
+    "name": "KURNOOL",
+    "latitude": 15.82469664,
+    "longitude": 78.02776392,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7941",
+    "name": "KURUPAM",
+    "latitude": 18.865509,
+    "longitude": 83.551594,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "7971",
+    "name": "LB NAGAR NEAR VESPA SHOW ROOM- RAINBOW HOSPITAL",
+    "latitude": 17.342343,
+    "longitude": 78.557326,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8011",
+    "name": "LAKDIKAPOOL",
+    "latitude": 17.403405,
+    "longitude": 78.465313,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8021",
+    "name": "LAKKAVARAM RAZOLE",
+    "latitude": 16.426048,
+    "longitude": 81.8437,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8101",
+    "name": "LB NAGAR",
+    "latitude": 17.346688,
+    "longitude": 78.550401,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8141",
+    "name": "BHEL-LINGAMPALLY",
+    "latitude": 17.49566,
+    "longitude": 78.31662,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8301",
+    "name": "MACHILIPATNAM",
+    "latitude": 16.188097,
+    "longitude": 81.136716,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8311",
+    "name": "MACHKHAND",
+    "latitude": 18.55069,
+    "longitude": 82.47559,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8351",
+    "name": "MADDILAPALEM",
+    "latitude": 17.736022,
+    "longitude": 83.319912,
+    "zone": "Central",
+    "isActive": true
+  },
+  {
+    "id": "8391",
+    "name": "MADEENAGUDA",
+    "latitude": 17.494997,
+    "longitude": 78.345577,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "841",
+    "name": "BHEL-ASHOK NAGAR",
+    "latitude": 17.50442,
+    "longitude": 78.30861,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8431",
+    "name": "MADHURAWADA",
+    "latitude": 17.806345,
+    "longitude": 83.366289,
+    "zone": "North-West",
+    "isActive": true
+  },
+  {
+    "id": "8491",
+    "name": "MAHIPALACHERUVU",
+    "latitude": 16.61598,
+    "longitude": 82.07182,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8691",
+    "name": "MAMIDIKUDRU",
+    "latitude": 16.50279,
+    "longitude": 81.9179,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8701",
+    "name": "MANAPURAM-SANTHA",
+    "latitude": 18.38423,
+    "longitude": 83.33534,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8771",
+    "name": "MANDAPETA",
+    "latitude": 16.8627,
+    "longitude": 81.9264,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "8811",
+    "name": "MANDAPET",
+    "latitude": 16.878517,
+    "longitude": 81.930491,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9001",
+    "name": "MARKAPUR",
+    "latitude": 15.733604,
+    "longitude": 79.268176,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9181",
+    "name": "MEDARAMETLA",
+    "latitude": 15.72358,
+    "longitude": 80.01663,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "921",
+    "name": "ASTALAXMI TEMPLE KAMAN_METRO PILLER 1613-1614",
+    "latitude": 17.363232,
+    "longitude": 78.543824,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9311",
+    "name": "MIYAPUR",
+    "latitude": 17.496687,
+    "longitude": 78.36171,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9321",
+    "name": "MIYAPUR BLRM X ROAD",
+    "latitude": 17.49667,
+    "longitude": 78.36433,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "941",
+    "name": "ASWARAOPET",
+    "latitude": 17.24279,
+    "longitude": 81.13008,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9451",
+    "name": "MOPIDEVI",
+    "latitude": 16.065878,
+    "longitude": 80.923996,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9481",
+    "name": "MOTHUGUDEM",
+    "latitude": 17.83127,
+    "longitude": 81.63396,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "951",
+    "name": "ATMAKUR K",
+    "latitude": 15.877686,
+    "longitude": 78.582315,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9591",
+    "name": "MUDINEPALLI",
+    "latitude": 16.422472,
+    "longitude": 81.109229,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9621",
+    "name": "MUMMIDIVARAM",
+    "latitude": 16.6413,
+    "longitude": 82.102121,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9691",
+    "name": "MURAMALLA",
+    "latitude": 16.675416,
+    "longitude": 82.16025,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9741",
+    "name": "MOVVA",
+    "latitude": 16.22512,
+    "longitude": 80.91363,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9761",
+    "name": "MYDUKUR",
+    "latitude": 14.7239109,
+    "longitude": 78.73174445,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9851",
+    "name": "NAD X ROAD",
+    "latitude": 17.744451,
+    "longitude": 83.236761,
+    "zone": "East",
+    "isActive": true
+  },
+  {
+    "id": "9941",
+    "name": "NAGAYALANKA",
+    "latitude": 15.94482,
+    "longitude": 80.914556,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9981",
+    "name": "NAIDUPET",
+    "latitude": 13.906208,
+    "longitude": 79.901017,
+    "zone": "Vizag",
+    "isActive": true
+  },
+  {
+    "id": "9991",
+    "name": "NAKKAPALLI",
+    "latitude": 17.40888742862684,
+    "longitude": 82.71535645240125,
+    "zone": "Vizag",
+    "isActive": true
+  }
+]

@@ -14,12 +14,12 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final _mobileController = TextEditingController();
+  final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
 
   @override
   void dispose() {
-    _mobileController.dispose();
+    _emailController.dispose();
     _passwordController.dispose();
     super.dispose();
   }
@@ -78,10 +78,10 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               const SizedBox(height: 28),
               AuthTextField(
-                label: 'Mobile Number',
-                controller: _mobileController,
-                keyboardType: TextInputType.phone,
-                prefixIcon: Icons.phone_android,
+                label: 'Email',
+                controller: _emailController,
+                keyboardType: TextInputType.emailAddress,
+                prefixIcon: Icons.email_outlined,
               ),
               const SizedBox(height: 18),
               AuthTextField(
@@ -122,37 +122,64 @@ class _LoginScreenState extends State<LoginScreen> {
                     child: Align(
                       alignment: Alignment.centerRight,
                       child: TextButton(
-                        onPressed: () {
-                          showDialog(
-                            context: context,
-                            builder: (dialogContext) => AlertDialog(
-                              title: const Text('Forgot password'),
-                              content: const Text(
-                                'Password reset will be available once Firebase Auth is fully configured. Please contact support if you need assistance.',
-                              ),
-                              actions: [
-                                TextButton(
-                                  onPressed: () => Navigator.pop(dialogContext),
-                                  child: const Text('Close'),
-                                ),
-                              ],
-                            ),
-                          );
+                        onPressed: () async {
+                          if (_emailController.text.trim().isEmpty) {
+                            if (mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(content: Text('Please enter your email to reset password.')),
+                              );
+                            }
+                            return;
+                          }
+                          await authProvider.sendPasswordResetEmail(_emailController.text.trim());
+                          if (mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              SnackBar(content: Text(authProvider.errorMessage ?? 'Password reset email sent.')),
+                            );
+                          }
                         },
                         child: const Text('Forgot Password?'),
                       ),
                     ),
                    ),
-                 ],
-               ),
-               const SizedBox(height: 22),
+                  ],
+                ),
+                const SizedBox(height: 22),
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.pushReplacementNamed(context, AppRoutes.home);
-                  },
-                  child: const Text('Login'),
+                  onPressed: authProvider.isLoading
+                      ? null
+                      : () async {
+                          final email = _emailController.text.trim();
+                          final password = _passwordController.text;
+                          if (email.isEmpty || password.isEmpty) {
+                            if (mounted) {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(content: Text('Please enter email and password.')),
+                              );
+                            }
+                            return;
+                          }
+                          final success = await authProvider.signInWithEmailAndPassword(
+                            email: email,
+                            password: password,
+                          );
+                          if (success && mounted) {
+                            Navigator.pushReplacementNamed(context, AppRoutes.home);
+                          } else if (mounted) {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              SnackBar(content: Text(authProvider.errorMessage ?? 'Login failed.')),
+                            );
+                          }
+                        },
+                  child: authProvider.isLoading
+                      ? const SizedBox(
+                          height: 20,
+                          width: 20,
+                          child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white),
+                        )
+                      : const Text('Login'),
                 ),
               ),
               const SizedBox(height: 18),
@@ -173,7 +200,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           builder: (dialogContext) => AlertDialog(
                             title: const Text('Google sign-in'),
                             content: const Text(
-                              'Google sign-in will be available once Firebase Auth is fully configured.',
+                              'Google sign-in requires additional Firebase configuration. It will be available in a future update.',
                             ),
                             actions: [
                               TextButton(

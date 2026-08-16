@@ -1,9 +1,11 @@
+import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'core/app_routes.dart';
 import 'core/app_theme.dart';
+import 'firebase_options.dart';
 import 'providers/app_state_provider.dart';
 import 'providers/auth_provider.dart';
 import 'providers/bus_data_provider.dart';
@@ -12,7 +14,22 @@ import 'providers/onboarding_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  // Ensure there is always an authenticated user for Firestore reads.
+  // Guests will use anonymous auth; real users will sign in later.
+  final auth = firebase_auth.FirebaseAuth.instance;
+  if (auth.currentUser == null) {
+    try {
+      await auth.signInAnonymously();
+    } on firebase_auth.FirebaseAuthException catch (_) {
+      // If anonymous sign-in fails, the app still starts;
+      // Firestore reads will show an auth-required state.
+    }
+  }
+
   runApp(
     MultiProvider(
       providers: [

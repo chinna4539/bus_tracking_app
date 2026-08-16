@@ -2,72 +2,124 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // Users collection
+    // -------------------------------------------------------------------------
+    // USERS
+    // -------------------------------------------------------------------------
+    // Users can only read/write their own profile document.
+    // Document ID must match the authenticated user's UID.
+    // -------------------------------------------------------------------------
     match /users/{userId} {
       allow read: if request.auth != null && request.auth.uid == userId;
       allow write: if request.auth != null && request.auth.uid == userId;
     }
 
-    // Buses collection
+    // -------------------------------------------------------------------------
+    // BUSES, ROUTES, STOPS, ROUTE_STOPS, TRIPS, LIVE_LOCATIONS
+    // -------------------------------------------------------------------------
+    // These are transit configuration and operational data.
+    // - Any authenticated user (including anonymous guests) can READ.
+    // - Writes require custom claims: admin, operator, or driver.
+    // - During testing, seed these collections via Firebase Console.
+    // -------------------------------------------------------------------------
     match /buses/{busId} {
-      allow read: if true;
+      allow read: if request.auth != null;
       allow write: if request.auth != null && request.auth.token.role in ['admin', 'operator'];
     }
 
-    // Routes collection
     match /routes/{routeId} {
-      allow read: if true;
+      allow read: if request.auth != null;
       allow write: if request.auth != null && request.auth.token.role in ['admin', 'operator'];
     }
 
-    // Stops collection
     match /stops/{stopId} {
-      allow read: if true;
+      allow read: if request.auth != null;
       allow write: if request.auth != null && request.auth.token.role in ['admin', 'operator'];
     }
 
-    // Route stops junction collection
     match /route_stops/{docId} {
-      allow read: if true;
+      allow read: if request.auth != null;
       allow write: if request.auth != null && request.auth.token.role in ['admin', 'operator'];
     }
 
-    // Trips collection
     match /trips/{tripId} {
-      allow read: if true;
+      allow read: if request.auth != null;
       allow write: if request.auth != null && request.auth.token.role in ['admin', 'driver'];
     }
 
-    // Drivers collection
+    match /live_locations/{locationId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.token.role in ['admin', 'driver'];
+    }
+
+    // -------------------------------------------------------------------------
+    // DRIVERS
+    // -------------------------------------------------------------------------
+    // Driver registry. Readable by admin and driver roles.
+    // Writes are admin-only.
+    // -------------------------------------------------------------------------
     match /drivers/{driverId} {
       allow read: if request.auth != null && request.auth.token.role in ['admin', 'driver'];
       allow write: if request.auth != null && request.auth.token.role == 'admin';
     }
 
-    // Live locations collection
-    match /live_locations/{locationId} {
-      allow read: if true;
-      allow write: if request.auth != null && request.auth.token.role in ['admin', 'driver'];
-    }
-
-    // Notifications collection
+    // -------------------------------------------------------------------------
+    // NOTIFICATIONS
+    // -------------------------------------------------------------------------
+    // User-specific or global notifications.
+    // Writes are admin-only.
+    // -------------------------------------------------------------------------
     match /notifications/{notifId} {
       allow read: if request.auth != null && (resource.data.userId == request.auth.uid || resource.data.userId == 'global');
       allow write: if request.auth != null && request.auth.token.role == 'admin';
     }
 
-    // Favorites collection
+    // -------------------------------------------------------------------------
+    // FAVORITES
+    // -------------------------------------------------------------------------
+    // User-saved buses, routes, and stops.
+    // Users can only read/write their own favorites.
+    // -------------------------------------------------------------------------
     match /favorites/{favId} {
       allow read: if request.auth != null && resource.data.userId == request.auth.uid;
-      allow write: if request.auth != null && request.auth.token.role in ['passenger', 'admin', 'driver'] && request.resource.data.userId == request.auth.uid;
+      allow write: if request.auth != null && request.resource.data.userId == request.auth.uid;
     }
 
-    // Reports collection
+    // -------------------------------------------------------------------------
+    // REPORTS
+    // -------------------------------------------------------------------------
+    // User-reported issues. Any authenticated user can read and create reports.
+    // Updates and deletes are admin-only.
+    // -------------------------------------------------------------------------
     match /reports/{reportId} {
-      allow read: if request.auth != null && request.auth.token.role in ['admin', 'passenger', 'driver'];
-      allow create: if request.auth != null && request.auth.token.role in ['passenger', 'driver'];
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
       allow update: if request.auth != null && request.auth.token.role == 'admin';
       allow delete: if false;
     }
+
+    // -------------------------------------------------------------------------
+    // TESTING STRATEGY (remove before production launch)
+    // -------------------------------------------------------------------------
+    // Custom claims (admin, operator, driver, passenger) are NOT yet configured.
+    // All role-based write rules above will DENY writes until claims are set.
+    //
+    // To seed data during testing:
+    //   1. Use Firebase Console → Firestore → Data to manually create documents.
+    //      Console writes bypass security rules.
+    //   2. Use Firebase Admin SDK from a trusted server/script.
+    //   3. When ready, set custom claims via Firebase Admin SDK:
+    //      admin.auth().setCustomUserClaims(uid, { role: 'admin' });
+    //
+    // Passenger app features that work WITHOUT custom claims:
+    //   - Read buses, routes, stops, trips, live_locations
+    //   - Manage own favorites
+    //   - Create reports
+    //   - Update own profile
+    //
+    // Passenger app features that are BLOCKED until custom claims are set:
+    //   - Any write to buses, routes, stops, route_stops
+    //   - Driver/operator writes to trips, live_locations
+    //   - Admin writes to drivers, notifications, reports
+    // -------------------------------------------------------------------------
   }
 }

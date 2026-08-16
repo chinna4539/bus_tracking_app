@@ -116,9 +116,19 @@ class _SearchSheetContentState extends State<_SearchSheetContent> {
                   ],
                 ),
               )
-            else
-              Expanded(
-                child: ListView.separated(
+             else
+               Expanded(
+                 child: results.isEmpty
+                     ? Center(
+                         child: Padding(
+                           padding: const EdgeInsets.all(24.0),
+                           child: Text(
+                             'No results found for "$query".',
+                             style: TextStyle(color: colorScheme.onSurfaceVariant),
+                           ),
+                         ),
+                       )
+                     : ListView.separated(
                   itemCount: results.length,
                   separatorBuilder: (_, _) => const SizedBox(height: 10),
                   itemBuilder: (itemContext, index) {

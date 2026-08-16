@@ -5,6 +5,7 @@ enum BusType { standard, express, ac }
 class BusInfo {
   final String busNumber;
   final String routeNumber;
+  final String? routeId;
   final String routeName;
   final String startingPoint;
   final String destination;
@@ -15,6 +16,7 @@ class BusInfo {
   final BusStatus status;
   final BusType busType;
   final String driverName;
+  final String? driverId;
   final int capacity;
   final int availableSeats;
   final double speed;
@@ -28,6 +30,7 @@ class BusInfo {
   const BusInfo({
     required this.busNumber,
     required this.routeNumber,
+    this.routeId,
     required this.routeName,
     required this.startingPoint,
     required this.destination,
@@ -38,6 +41,7 @@ class BusInfo {
     required this.status,
     required this.busType,
     required this.driverName,
+    this.driverId,
     required this.capacity,
     required this.availableSeats,
     required this.speed,
@@ -53,6 +57,7 @@ class BusInfo {
     return BusInfo(
       busNumber: data['busNumber'] as String? ?? '',
       routeNumber: data['routeNumber'] as String? ?? '',
+      routeId: data['routeId'] as String?,
       routeName: data['routeName'] as String? ?? '',
       startingPoint: data['startingPoint'] as String? ?? '',
       destination: data['destination'] as String? ?? '',
@@ -69,6 +74,7 @@ class BusInfo {
         orElse: () => BusType.standard,
       ),
       driverName: data['driverName'] as String? ?? '',
+      driverId: data['driverId'] as String?,
       capacity: data['capacity'] as int? ?? 0,
       availableSeats: data['availableSeats'] as int? ?? 0,
       speed: (data['speed'] as num?)?.toDouble() ?? 0.0,
@@ -85,6 +91,7 @@ class BusInfo {
     return BusInfo(
       busNumber: data['busNumber'] as String? ?? id,
       routeNumber: data['routeNumber'] as String? ?? data['routeId'] as String? ?? id,
+      routeId: data['routeId'] as String?,
       routeName: data['routeName'] as String? ?? '',
       startingPoint: data['startingPoint'] as String? ?? '',
       destination: data['destination'] as String? ?? '',
@@ -101,6 +108,7 @@ class BusInfo {
         orElse: () => BusType.standard,
       ),
       driverName: data['driverName'] as String? ?? '',
+      driverId: data['driverId'] as String?,
       capacity: data['capacity'] as int? ?? 0,
       availableSeats: data['availableSeats'] as int? ?? 0,
       speed: (data['speed'] as num?)?.toDouble() ?? 0.0,
@@ -117,6 +125,7 @@ class BusInfo {
     return {
       'busNumber': busNumber,
       'routeNumber': routeNumber,
+      'routeId': routeId,
       'routeName': routeName,
       'startingPoint': startingPoint,
       'destination': destination,
@@ -127,6 +136,7 @@ class BusInfo {
       'status': status.name,
       'busType': busType.name,
       'driverName': driverName,
+      'driverId': driverId,
       'capacity': capacity,
       'availableSeats': availableSeats,
       'speed': speed,

@@ -46,14 +46,32 @@ class FirestoreService {
     return snapshot.docs.map((doc) => BusInfo.fromFirestore(doc.id, doc.data())).toList();
   }
 
+  Stream<List<BusInfo>> watchBuses() {
+    return busesRef.snapshots().map((snapshot) {
+      return snapshot.docs.map((doc) => BusInfo.fromFirestore(doc.id, doc.data())).toList();
+    });
+  }
+
   Future<List<BusRoute>> fetchRoutes() async {
     final snapshot = await routesRef.get();
     return snapshot.docs.map((doc) => BusRoute.fromFirestore(doc.id, doc.data())).toList();
   }
 
+  Stream<List<BusRoute>> watchRoutes() {
+    return routesRef.snapshots().map((snapshot) {
+      return snapshot.docs.map((doc) => BusRoute.fromFirestore(doc.id, doc.data())).toList();
+    });
+  }
+
   Future<List<BusStop>> fetchStops() async {
     final snapshot = await busStopsRef.get();
     return snapshot.docs.map((doc) => BusStop.fromFirestore(doc.id, doc.data())).toList();
+  }
+
+  Stream<List<BusStop>> watchStops() {
+    return busStopsRef.snapshots().map((snapshot) {
+      return snapshot.docs.map((doc) => BusStop.fromFirestore(doc.id, doc.data())).toList();
+    });
   }
 
   Future<List<DriverInfo>> fetchDrivers() async {

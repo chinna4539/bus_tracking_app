@@ -400,7 +400,63 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _buildLiveBuses(BuildContext context) {
     final provider = context.watch<BusDataProvider>();
+
+    if (provider.isFirestoreLoading) {
+      return const SizedBox(
+        height: 170,
+        child: Center(
+          child: CircularProgressIndicator(color: AppColors.primary),
+        ),
+      );
+    }
+
+    if (provider.firestoreErrorMessage != null && provider.hasLoadedFirestore) {
+      return Container(
+        height: 170,
+        padding: const EdgeInsets.all(18),
+        decoration: BoxDecoration(
+          color: Theme.of(context).colorScheme.surfaceContainerHighest,
+          borderRadius: BorderRadius.circular(24),
+        ),
+        child: Row(
+          children: [
+            const Icon(Icons.wifi_off_rounded, color: Colors.redAccent),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Text(
+                provider.firestoreErrorMessage!,
+                style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
     final buses = provider.nearbyBuses;
+    if (buses.isEmpty) {
+      return Container(
+        height: 170,
+        padding: const EdgeInsets.all(18),
+        decoration: BoxDecoration(
+          color: Theme.of(context).colorScheme.surfaceContainerHighest,
+          borderRadius: BorderRadius.circular(24),
+        ),
+        child: Row(
+          children: [
+            const Icon(Icons.directions_bus_rounded, color: AppColors.primary),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Text(
+                'No buses available right now.',
+                style: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(

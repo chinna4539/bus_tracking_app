@@ -26,9 +26,16 @@ class BusDataProvider extends ChangeNotifier {
 
   bool get isFirestoreLoading => _firestoreProvider?.isLoading ?? false;
   String? get firestoreErrorMessage => _firestoreProvider?.errorMessage;
+  bool get hasLoadedFirestore => _firestoreProvider?.hasLoaded ?? false;
+
+  List<BusInfo> get firestoreBuses => List.unmodifiable(_firestoreProvider?.buses ?? const []);
 
   List<BusInfo> get nearbyBuses {
     final source = _firestoreProvider?.buses;
+    final hasLoaded = _firestoreProvider?.hasLoaded ?? false;
+    if (hasLoaded) {
+      return source ?? const [];
+    }
     return (source != null && source.isNotEmpty)
         ? source
         : BusDataService.buses;
@@ -84,7 +91,15 @@ class BusDataProvider extends ChangeNotifier {
     final lowerQuery = _searchQuery.toLowerCase();
     final results = <SearchResult>[];
 
-    final matchedBuses = nearbyBuses.where((bus) {
+    final busSource = hasLoadedFirestore ? firestoreBuses : nearbyBuses;
+    final routeSource = hasLoadedFirestore
+        ? (_firestoreProvider?.routes ?? const [])
+        : BusDataService.routes;
+    final stopSource = hasLoadedFirestore
+        ? (_firestoreProvider?.stops ?? const [])
+        : BusDataService.stops;
+
+    final matchedBuses = busSource.where((bus) {
       if (_matchesCategory(lowerQuery, bus)) {
         return true;
       }
@@ -110,7 +125,7 @@ class BusDataProvider extends ChangeNotifier {
     );
 
     results.addAll(
-      popularRoutes
+      routeSource
           .where((route) {
             return route.routeNumber.toLowerCase().contains(lowerQuery) ||
                 route.title.toLowerCase().contains(lowerQuery) ||
@@ -129,7 +144,7 @@ class BusDataProvider extends ChangeNotifier {
     );
 
     results.addAll(
-      allStops
+      stopSource
           .where((stop) {
             return stop.name.toLowerCase().contains(lowerQuery);
           })
@@ -154,8 +169,11 @@ class BusDataProvider extends ChangeNotifier {
       return bus.busType == BusType.standard;
     }
     if (lowerQuery == 'night') {
-      final route = BusDataService.routes
-          .firstWhere((r) => r.routeNumber == bus.routeNumber, orElse: () => BusDataService.routes.first);
+      final routeSource = hasLoadedFirestore
+          ? (_firestoreProvider?.routes ?? BusDataService.routes)
+          : BusDataService.routes;
+      final route = routeSource
+          .firstWhere((r) => r.routeNumber == bus.routeNumber, orElse: () => routeSource.first);
       return route.lastBus.toLowerCase().contains('pm');
     }
     return false;
@@ -191,9 +209,10 @@ class BusDataProvider extends ChangeNotifier {
   }
 
   void toggleFavouriteBusByNumber(String busNumber) {
-    final bus = BusDataService.buses.firstWhere(
+    final busSource = hasLoadedFirestore ? firestoreBuses : BusDataService.buses;
+    final bus = busSource.firstWhere(
       (candidate) => candidate.busNumber == busNumber,
-      orElse: () => BusDataService.buses.first,
+      orElse: () => busSource.first,
     );
     toggleFavouriteBus(bus);
   }
@@ -208,9 +227,12 @@ class BusDataProvider extends ChangeNotifier {
   }
 
   void toggleFavouriteRouteByNumber(String routeNumber) {
-    final route = BusDataService.routes.firstWhere(
+    final routeSource = hasLoadedFirestore
+        ? (_firestoreProvider?.routes ?? BusDataService.routes)
+        : BusDataService.routes;
+    final route = routeSource.firstWhere(
       (candidate) => candidate.routeNumber == routeNumber,
-      orElse: () => BusDataService.routes.first,
+      orElse: () => routeSource.first,
     );
     toggleFavouriteRoute(route);
   }
@@ -225,9 +247,12 @@ class BusDataProvider extends ChangeNotifier {
   }
 
   void toggleFavouriteStopByName(String stopName) {
-    final stop = BusDataService.stops.firstWhere(
+    final stopSource = hasLoadedFirestore
+        ? (_firestoreProvider?.stops ?? BusDataService.stops)
+        : BusDataService.stops;
+    final stop = stopSource.firstWhere(
       (candidate) => candidate.name == stopName,
-      orElse: () => BusDataService.stops.first,
+      orElse: () => stopSource.first,
     );
     toggleFavouriteStop(stop);
   }
