@@ -7,6 +7,7 @@ import 'package:googleapis_auth/auth_io.dart';
 const _projectId = 'visakhapatnam-bus-tracking';
 const _baseUrl =
     'https://firestore.googleapis.com/v1/projects/$_projectId/databases/(default)';
+const _resourcePrefix = 'projects/$_projectId/databases/(default)/documents';
 const _batchSize = 500;
 
 Future<void> main(List<String> args) async {
@@ -408,11 +409,11 @@ Future<void> _batchWrite(
       final id = record['id'] as String;
       final fields = _convertToFirestoreFields(record);
       writes.add({
-        'update': {'name': '$_baseUrl/$collection/$id', 'fields': fields},
+        'update': {'name': '$_resourcePrefix/$collection/$id', 'fields': fields},
       });
     }
 
-    final response = await _post(authClient, '$_baseUrl:batchWrite', {
+    final response = await _post(authClient, '$_baseUrl/documents:batchWrite', {
       'writes': writes,
     });
 
@@ -432,7 +433,7 @@ Map<String, dynamic> _convertToFirestoreFields(Map<String, dynamic> record) {
 }
 
 Map<String, dynamic> _convertValue(dynamic value) {
-  if (value == null) return {'nullValue': true};
+  if (value == null) return {'nullValue': null};
   if (value is String) return {'stringValue': value};
   if (value is int) return {'integerValue': value.toString()};
   if (value is double) return {'doubleValue': value.toString()};
